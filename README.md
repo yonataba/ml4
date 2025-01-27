@@ -18,7 +18,7 @@ ml4/
 ├── imagelabels.mat     # Label mapping file for the Oxford dataset
 ├── jpg/                # Folder containing flower images
 ├── models/             # Pre-trained YOLOv5 and VGG19 models
-├── output/             # Directory containing model outputs
+├── output/             # Directory the directories for YOLO training
 ├── plots/              # Directory containing accuracy and loss graphs
 ├── plot_yolo.py        # Script for plotting YOLOv5 results
 ├── results.csv         # CSV file summarizing classification results
@@ -96,6 +96,8 @@ The following steps were performed to preprocess the images:
      ./run_me_yolo.sh
      ```
 5. View the directories for YOLO train in the `output/` directory and performance graphs in the `plots/` directory.
+6. Setup
+   - All models traind on rtx_6000
 
 ---
 
